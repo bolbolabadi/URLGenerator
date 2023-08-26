@@ -12,7 +12,7 @@ Example input file content:
 
 ```
 
-Example:
+Usage example to find and capture available URLs:
 ```
 ./URLGenerator.sh ports.txt targets.txt | httpx -ss
 ```
