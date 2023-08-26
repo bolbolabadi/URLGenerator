@@ -11,3 +11,8 @@ Example input file content:
 192.168.1.2
 
 ```
+
+Example:
+```
+./URLGenerator.sh ports.txt targets.txt | httpx -ss
+```
