@@ -14,5 +14,5 @@ Example input file content:
 
 Usage example to find and capture available URLs:
 ```
-./URLGenerator.sh ports.txt targets.txt | httpx -ss
+./URLGenerator.sh ports.txt targets.txt | httpx -nf -t 500 -rl 5000 -silent -ss
 ```
